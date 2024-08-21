@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto-Light;
+    scroll-behavior: smooth;
+    /* position: absolute;  */
+    overflow-x: hidden;
+    transition: 500ms ease-in;
+    
+}
+
+
+@font-face{
+    font-family: plaster;
+    src: url(./assets/plaster/Plaster-Regular.ttf);
+}
+@font-face{
+    font-family:roboto-regular;
+    src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family: roboto-thin;
+    src: url(./assets/fonts/robotos/Roboto-Thin.ttf);
+}
+@font-face{
+    font-family: roboto-medium;
+    src: url(./assets/fonts/Roboto-Medium.ttf);
+}
+@font-face{
+    font-family: roboto-black;
+    src: url(../assets/fonts/Roboto-Black.ttf);
+}
+@font-face{
+    font-family: roboto-light;
+    src: url(./assets/fonts/robotos/Roboto-Light.ttf);
+}
+@font-face{
+    font-family: roboto-italic;
+    src: url(../assets/fonts/roboto-italic.ttf);
+}
+
+
+.roboto-bold{
+    font-family: roboto-thin;
+}
+.roboto-bold{
+    font-family: roboto-black;
+}
+.roboto-bold{
+    font-family: roboto-bold;
+}
+.roboto-bold{
+    font-family: roboto-regular;
+}.roboto-bold{
+    font-family: roboto-light;
+}
+.roboto-italic{
+    font-family: roboto-italic;
+}
+
+.menu h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+.menu {
+    width: 100%;
+    height: 400px;
+    background-image: url(./assets/images/aaaa4.jpeg);
+}
+
+button {
+    font-size: 1.2rem;
+    color: white;
+    background: rgb(240, 144, 120);
+    padding:10px 10px;
+    height: 70px;
+    width: 150px;
+    letter-spacing: 3px;
+    border: none;
+    list-style: none;   
+    margin-top: 20px;
+}
+button a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    background: #efd2d2;
+    transition: 500ms;
+}
+.adn{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+.ben{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.adn .infinix {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    margin-top: 50px;
+    align-items: center;
+    font-family: Roboto-Light;
+    /* background: rgb(3, 53, 53); */
+    color: #656262;
+    gap: 20px;
+    /* border: solid RED; */
+    padding: 80px;
+}
+.adn .infinix .angelot{
+    position: relative;
+    width: 50%;
+    justify-content: center; 
+    align-items: center; 
+     padding:0  50px; 
+}
+.adn .infinix .angelot p{
+    line-height: 30px;
+    font-family: Roboto-Light;
+    font-size: 1.2rem;
+    width: 88%;
+
+}
+.adn .infinix .angelot h2{
+    font-size: 4rem;
+    font-family: Roboto-Light;
+    text-align: start;
+    line-height: 80px;
+    width: 88%;
+
+
+}
+.adn .infinix .jaune{
+    font-family: Roboto-Light;
+    color: #656262;
+    width: 50%;
+    /* padding: 40px 0; */
+}
+.adn .infinix .jaune input{
+    width: 88%;
+    height: 50px;
+    border-style:double #5a5858;
+}
+.adn .infinix .jaune input:hover{
+    background: rgb(248, 243, 243);
+    transition: 500ms;
+   border-style:double;
+}
+.adn .infinix .jaune .Nom{
+    width: 88%;
+    height: 100px;
+    border-style:double #5a5858 ;
+
+}
+.adn .infinix .jaune .Nom:hover{
+    background: rgb(248, 243, 243);
+    transition: 500ms;
+    border-style:double; 
+}
+.adn .infinix .jaune span{
+    color: rgb(224, 226, 226);
+}
+.trez .true{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    align-items: center;
+    font-size: 2rem;
+    font-family: Roboto-Light;
+    color: #656262;
+    
+}
+
+.trez .rere{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+}
+.trez{
+    background: rgb(233, 230, 230);
+    width: 100%;
+    margin: auto;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+ 
+
+}
+.apropos{
+    width: 90%;
+    margin: auto;
+    gap: 40px;
+}
+.footer .azerty{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
+    padding: 0 80px;
+    color: #656262;
+    font-family: Roboto-Light;
+
+
+}
+.footer .azerty h4{
+    text-align: left;
+    font-family: Roboto-Light;
+    font-size: 15px;
+}
+.footer .azerty a{
+    color:rgb(240, 144, 120); 
+    font-family: Roboto-Light;
+
+}

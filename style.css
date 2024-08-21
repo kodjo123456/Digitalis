@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto-Light;
+    scroll-behavior: smooth;
+    /* position: absolute;  */
+    overflow-x: hidden;
+    transition: 500ms ease-in;
+}
+
+
+@font-face{
+    font-family: plaster;
+    src: url(./assets/plaster/Plaster-Regular.ttf);
+}
+@font-face{
+    font-family:roboto-regular;
+    src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family: roboto-thin;
+    src: url(./assets/fonts/robotos/Roboto-Thin.ttf);
+}
+@font-face{
+    font-family: roboto-medium;
+    src: url(./assets/fonts/Roboto-Medium.ttf);
+}
+@font-face{
+    font-family: roboto-black;
+    src: url(../assets/fonts/Roboto-Black.ttf);
+}
+@font-face{
+    font-family: roboto-light;
+    src: url(./assets/fonts/robotos/Roboto-Light.ttf);
+}
+@font-face{
+    font-family: roboto-italic;
+    src: url(../assets/fonts/roboto-italic.ttf);
+}
+
+
+.roboto-bold{
+    font-family: roboto-thin;
+}
+.roboto-bold{
+    font-family: roboto-black;
+}
+.roboto-bold{
+    font-family: roboto-bold;
+}
+.roboto-bold{
+    font-family: roboto-regular;
+}.roboto-bold{
+    font-family: roboto-light;
+}
+.roboto-italic{
+    font-family: roboto-italic;
+}
+header{
+    background: url(./assets/images/Digitalisation.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    padding-right: 30px;
+    /* position: absolute; */
+    
+
+}
+header .navbar{
+    position: relative;
+    padding: 10px; 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    transition: 0,5s;
+   
+    
+}
+header .navbar .logo{
+    display: flex;
+    
+}
+ header .navbar .logo a{
+     color: white; 
+    font-weight: bold;
+    text-decoration: none;
+    font-weight: 1,4rem;
+}
+
+header .navbar  li a{
+    margin-left: 20px;
+    color: white;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+
+}
+   
+ button {
+    font-size: 1.2rem;
+    color: white;
+    background: rgb(240, 144, 120);
+    padding:10px 10px;
+    height: 70px;
+    width: 250px;
+    letter-spacing: 3px;
+    border: none;
+    list-style: none;   
+}
+button a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    background: #efd2d2;
+    transition: 500ms;
+}
+
+header .contenu p{
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+section{
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.row{
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+}
+.row .col50{
+    position: relative;
+    width: 45%;
+    align-items: center;
+    gap: 10px;
+}
+
+.row .col50 h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: Roboto-Light;
+    font-size: 4rem;
+    line-height: 80px;
+
+
+}
+.row .col50 .reza{
+
+    font-size: 1.6rem;
+    line-height: 50px;
+    font-family: Roboto-Light;
+    color: #4a4646;
+   
+}
+
+.title-texte{
+    color: #4a4646;
+    font-size: 3rem;
+    font-weight: 300;
+}
+.row .col-50 img{
+    height: 600px;
+    width: 500px;
+}
+.row .col-50 .img1{
+  
+    margin-left: 60px;
+}
+.row .col-50 img{
+    font-size: 20px;
+}
+.row .col-50{
+    width: 50%;
+}
+.tarif{
+    width: 80%;
+    margin: auto;
+    
+}
+
+.tarif h2{
+    color: #4a4646;
+    font-size: 4rem;
+    font-family: Roboto-Light;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+}
+.deux{
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-between; 
+    margin-top: 50px;
+    align-items: center;
+    font-family: Roboto-Light;
+  
+}
+.deux .gauche{
+    position: relative;
+    width: 50%;
+    justify-content: center; 
+    align-items: center; 
+     
+   
+}
+.deux .gauche h2{
+    font-size: 3rem;
+    font-family: Roboto-Light;
+    text-align: start;
+}
+
+.deux .droite{
+width: 50%;
+line-height: 30px;
+font-family: Roboto-Light;
+color: #656262;
+
+}
+.deux .droite a{
+    color: rgb(240, 144, 120);
+    text-decoration: none;
+    border-bottom: 2px solid rgb(240, 144, 120);
+}
+.deux .droite p{
+    font-size: 20px;
+}
+.adn{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+.ben{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+.adn .infinix {
+    width: 90%;
+    display: flex;
+    justify-content: center; 
+    margin-top: 50px;
+    align-items: center;
+    font-family: Roboto-Light;
+    background: rgb(3, 53, 53);
+    color: white;
+    gap: 20px;
+}
+.adn .infinix .angelot{
+    position: relative;
+    width: 50%;
+    justify-content: center; 
+    align-items: center; 
+     padding: 30px; 
+}
+.adn .infinix .angelot p{
+    line-height: 30px;
+    font-family: Roboto-Light;
+    font-size: 1.2rem;
+}
+.adn .infinix .angelot h2{
+    font-size: 4rem;
+    font-family: Roboto-Light;
+    text-align: start;
+    line-height: 80px;
+
+}
+.adn .infinix .jaune{
+    font-family: Roboto-Light;
+    color: white;
+    width: 50%;
+    padding: 40px;
+}
+.adn .infinix .jaune input{
+    width: 400px;
+    height: 50px;
+}
+.adn .infinix .jaune input:hover{
+    background: rgb(218, 217, 217);
+    transition: 500ms;
+}
+.adn .infinix .jaune .Nom{
+    width: 400px;
+    height: 100px;
+}
+.adn .infinix .jaune span{
+    color: rgb(7, 45, 45);
+}
+.trez .true{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    align-items: center;
+    font-size: 2rem;
+    font-family: Roboto-Light;
+    color: #656262;
+    
+}
+
+.trez .rere{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+}
+.trez{
+    background: rgb(233, 230, 230);
+    width: 100%;
+    margin: auto;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+ 
+
+}
+.apropos{
+    width: 90%;
+    margin: auto;
+    gap: 40px;
+}
+.footer .azerty{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
+    padding: 0 80px;
+}
+.footer .azerty h4{
+    text-align: left;
+    font-size: 20px;
+}
+.footer .azerty a{
+    color:rgb(240, 144, 120); 
+}

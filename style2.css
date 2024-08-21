@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto-Light;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    transition: 500ms ease-in;
+}
+
+@font-face {
+    font-family: plaster;
+    src: url(./assets/plaster/Plaster-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto-regular;
+    src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto-thin;
+    src: url(./assets/fonts/robotos/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: roboto-medium;
+    src: url(./assets/fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: roboto-black;
+    src: url(../assets/fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: roboto-light;
+    src: url(./assets/fonts/robotos/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: roboto-italic;
+    src: url(../assets/fonts/roboto-italic.ttf);
+}
+
+.roboto-bold {
+    font-family: roboto-thin;
+}
+
+.roboto-bold {
+    font-family: roboto-black;
+}
+
+.roboto-bold {
+    font-family: roboto-bold;
+}
+
+.roboto-bold {
+    font-family: roboto-regular;
+}
+
+.roboto-bold {
+    font-family: roboto-light;
+}
+
+.roboto-italic {
+    font-family: roboto-italic;
+}
+
+header {
+    background: url(./assets/images/digi.jpeg);
+    background-size: cover;
+    /* padding: 40px 0px; */
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    /* padding: 40px; */
+    
+}
+
+header .navbar {
+    position: relative;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    transition: 0.5s;
+}
+
+header .navbar .logo {
+    display: flex;
+}
+
+header .navbar .logo a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-weight: 1.4rem;
+}
+
+header .navbar li a {
+    margin-left: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+}
+
+button {
+    font-size: 1.2rem;
+    color: white;
+    background: rgb(240, 144, 120);
+    padding: 10px 10px;
+    height: 70px;
+    width: 250px;
+    letter-spacing: 3px;
+    border: none;
+    list-style: none;
+}
+
+button a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    background: #efd2d2;
+    transition: 500ms;
+}
+
+header .contenu p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+section {
+    margin-top: 40px;
+}
+
+.row {
+    position: relative;
+    margin-top: 50px;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row .col50 {
+    position: relative;
+    width: 45%;
+    align-items: center;
+    gap: 20px;
+}
+
+.row .col50 h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: Roboto-Light;
+    font-size: 3rem;
+    line-height: 60px;
+    text-align: left;
+}
+
+.apropos h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #4a4646;
+}
+
+.row .col50 h3 {
+    color: #4a4646;
+    font-size: 1.6rem;
+}
+
+.row .col50 .reza {
+    font-size: 1.1rem;
+    line-height: 40px;
+    font-family: Roboto-Light;
+    color: #4a4646;
+}
+
+.row .col50 a {
+    color: rgb(240, 144, 120);
+    font-size: 1.3rem;
+}
+
+.title-texte {
+    color: #4a4646;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.row .col-50 img {
+    height: 600px;
+    width: 500px;
+}
+
+.row .col-50 {
+    width: 45%;
+}
+
+.tarif {
+    width: 80%;
+    margin: auto;
+}
+
+.trez .true {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: Roboto-Light;
+    color: white;
+}
+
+.trez .rere {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.trez {
+    background: rgb(3, 53, 53);
+    width: 100%;
+    margin: auto;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.apropos {
+    width: 90%;
+    margin: auto;
+    gap: 40px;
+    padding: 20vh 0;
+}
+
+.footer .azerty {
+    font-family: Roboto-Light;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+    padding: 10px 60px;
+    margin-top: -100px;
+    color: #656262;
+}
+
+.footer .azerty h4 {
+    text-align: left;
+    font-size: 20px;
+}
+
+.footer .azerty a {
+    color: rgb(240, 144, 120);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+    .row {
+        flex-direction: column;
+        padding: 0 5%;
+    }
+
+    .row .col50,
+    .row .col-50 {
+        width: 100%;
+    }
+
+    .row .col-50 img {
+        width: 100%;
+        height: auto;
+    }
+
+    header .contenu p {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    button {
+        height: 50px;
+        width: 200px;
+        font-size: 1rem;
+    }
+
+    header .contenu p {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    button {
+        height: 40px;
+        width: 150px;
+        font-size: 0.9rem;
+    }
+
+    header .navbar {
+        flex-direction: column;
+    }
+
+    header .navbar li a {
+        margin-left: 0;
+    }
+
+    .row .col50 h2 {
+        font-size: 2.5rem;
+    }
+
+    .row .col50 h3 {
+        font-size: 1.2rem;
+    }
+
+    .row .col50 .reza {
+        font-size: 0.9rem;
+        line-height: 30px;
+    }
+
+    .row .col50 a {
+        font-size: 1rem;
+    }
+
+    .row .col-50 img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    header .contenu p {
+        font-size: 2rem;
+        display: flex;
+        text-align: start;
+        justify-content: center;
+        align-items: start;
+        padding: 0%;
+    }
+
+    .row .col50 h2 {
+        font-size: 1.6rem;
+        line-height: 20px;
+    }
+
+    .row .col50 h3 {
+        font-size: 1rem;
+    }
+
+    .row .col50 .reza {
+        font-size: 0.8rem;
+        line-height: 20px;
+    }
+
+    .row .col50 a {
+        font-size: 0.8rem;
+    }
+
+    .apropos {
+        padding: 10vh 0;
+    }
+
+    .apropos h2 {
+        font-size: 2rem;
+    }
+
+    .trez .true {
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    } 
+    .trez .rere{
+        display: contents;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: -10px;
+    }
+
+    .footer .azerty {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        height: auto;
+
+    }
+
+    .footer .azerty h4 {
+        text-align: center;
+        font-size: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+
+    }
+
+    .footer .azerty a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .footer .azerty .serty {
+        display: flex;
+        gap: 50px;
+
+    }
+
+    .footer .azerty .zerty {
+        text-align: start;
+        display: table-column;
+        text-align: start;
+    }
+}

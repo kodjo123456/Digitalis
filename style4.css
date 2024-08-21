@@ -1,0 +1,200 @@
+* {
+    font-size: 1.1rem;
+    color: rgb(63, 62, 62);
+
+}
+
+.section {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.section {
+    padding: 20px;
+}
+
+.section h1 {
+    font-size: 4rem;
+}
+
+.section p {
+    font-size: 1.6rem;
+}
+
+.section .resa {
+    width: 50%;
+    height: 100vh;
+    border: 1px solid #e3dcdc;
+    margin-left: 25%;
+}
+
+.section .resa h3 {
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+    padding-right: 20px;
+}
+
+.step-number {
+    background-color: #313131;
+}
+
+.step-number {
+    background: #313131;
+    color: #fff;
+    border-radius: 50%;
+    width: 37.5px;
+    height: 37.5px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 8px;
+    margin-right: 7.5px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.section .resa .step-title {
+    text-align: start;
+    padding-left: 20px;
+}
+
+.section .resa .step-title a {
+    color: #313131;
+    font-size: 1.2rem;
+}
+
+.section .resa1 .step-title a {
+    color: #313131;
+    font-size: 1.2rem;
+}
+
+.section .resa .pear {
+    display: flex;
+    border: 1px solid #e3dcdc;
+    width: 94%;
+    margin-left: 3%;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+
+.section .resa .pear p {
+    font-size: 1.1rem;
+}
+
+.section .resa .pear .seth {
+    text-align: start;
+}
+
+.section .resa .pear a {
+    background-color: #313131;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.section .resa .pear .rosa {
+    margin-top: 5%;
+}
+
+.section .resa1 {
+    width: 50%;
+    height: 13vh;
+    border: 1px solid #e3dcdc;
+    margin-left: 25%;
+}
+
+.footer .azerty {
+    font-family: Roboto-Light;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+    padding: 10px 60px;
+    margin-top: -100px;
+    color: #656262;
+}
+
+.section .resa1 .step-title {
+    text-align: start;
+    padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .section {
+        margin-top: 5%;
+    }
+
+    .section h1 {
+        font-size: 3rem;
+    }
+
+    .section p {
+        font-size: 1.4rem;
+    }
+
+    .section .resa,
+    .section .resa1 {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .section .resa {
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .section {
+        margin-top: 3%;
+        padding: 10px;
+    }
+
+    .section h1 {
+        font-size: 2.5rem;
+    }
+
+    .section p {
+        font-size: 1.2rem;
+    }
+
+    .section .resa1 .step-title a {
+        font-size: 1rem;
+    }
+
+    .section .resa,
+    .section .resa1 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .section .resa {
+        height: auto;
+    }
+
+    .section .resa .pear {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .section .resa .pear .seth,
+    .section .resa .pear .rosa {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .section .resa .pear a {
+        display: block;
+        margin: 10px auto;
+    }
+
+    .section .resa {
+        font-size: 0.6rem;
+    }
+}
