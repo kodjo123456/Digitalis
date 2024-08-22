@@ -1,0 +1,637 @@
+@import url("https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700&display=swap");
+@import url(https://db.onlinewebfonts.com/c/f43fbd4729ee3bb2d04777c83f7c464e?family=Adonis+W00+Regular);
+@font-face {
+  font-family: plaster;
+  src: url(./assets/plaster/Plaster-Regular.ttf);
+}
+@font-face {
+  font-family: roboto-regular;
+  src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: roboto-thin;
+  src: url(./assets/fonts/robotos/Roboto-Thin.ttf);
+}
+@font-face {
+  font-family: roboto-medium;
+  src: url(./assets/fonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: roboto-black;
+  src: url(../assets/fonts/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: roboto-light;
+  src: url(./assets/fonts/robotos/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: roboto-italic;
+  src: url(../assets/fonts/roboto-italic.ttf);
+}
+
+.roboto-bold {
+  font-family: roboto-thin;
+}
+.roboto-bold {
+  font-family: roboto-black;
+}
+.roboto-bold {
+  font-family: roboto-bold;
+}
+.roboto-bold {
+  font-family: roboto-regular;
+}
+.roboto-bold {
+  font-family: roboto-light;
+}
+.roboto-italic {
+  font-family: roboto-italic;
+}
+.middle {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Adonis W00 Regular",sans-serif;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: "Adonis W00 Regular";
+  
+
+}
+.over {
+  height: 100vh;
+  width: 100vw;
+}
+.acceuil {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.651)),
+    url(../images/image-asset.jpeg);
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0 2%;
+}
+nav div {
+  display: flex;
+  align-items: center;
+  padding: 0 20px 0 20px;
+  width: 50%;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+nav div a {
+  color: black;
+  text-decoration: none;
+  font-family: Roboto-Medium;
+  
+  font-size: 1rem;
+}
+
+nav div a:hover {
+  text-decoration: underline;
+}
+
+nav button {
+  width: 240px;
+  background-color: rgba(219, 84, 6, 0.568);
+  font-size: large;
+  border-radius: 5px;
+  color: white;
+  letter-spacing: 2px;
+  height: 70px;
+  margin-top: 15px;
+  text-decoration: none;
+}
+nav button a {
+  text-decoration: none;
+  color: white;
+}
+#logo {
+  font-family: Roboto-Bold;
+  font-size: 2rem;
+}
+.acceuil h1 {
+  font-size: 4rem;
+  color: white;
+  text-align: center;
+  padding: 200px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+}
+#card {
+  height: 200px;
+  width: 300px;
+  margin-left: 20%;
+}
+.flextop {
+  display: flex;
+  gap: 5px;
+}
+.flexbottom {
+  display: flex;
+  gap: 5px;
+}
+.Nosservices {
+  height: 180vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+.flextop div {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 40px;
+  padding: 5px;
+}
+.flexbottom div {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 40px;
+  padding: 5px;
+}
+.grid {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* margin-top: 10%; */
+
+  height: 100%;
+}
+.Nosservices h2 {
+  font-size: 3rem;
+}
+.Nosservices h1 {
+  font-size: 4rem;
+  padding-top: 10%;
+}
+.grid p {
+  font-size: 1.2rem;
+}
+
+.middle .Nosservices button {
+  width: 350px;
+  background-color:  rgba(219, 66, 6, 0.788);
+  font-size: large;
+  border-radius: 5px;
+  color: white;
+  letter-spacing: 2px;
+  height: 70px;
+  margin-top: 15px;
+}
+.middle .Nosservices button a {
+  text-decoration: none;
+  color: white;
+}
+.olivia {
+  height: 100vh;
+  width: 100vw;
+  background-color: antiquewhite;
+  display: flex;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+}
+.oliviacontainer {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: 80vh;
+  width: 90vw;
+}
+.imgolivia {
+  height: 100%;
+  width: 1300px;
+
+  position: relative;
+}
+.imgolivia img {
+  height: 100%;
+  width: 80%;
+}
+.textolivia {
+  height: 90%;
+  width: 820px;
+  background-color: white;
+  top: 35px;
+  right: 450px;
+  position: relative;
+  padding: 40px;
+  z-index: 2;
+}
+.textolivia p {
+  font-size: 2rem;
+}
+.Contact {
+  background-color: rgba(0, 0, 0, 0.434);
+  height: 60vh;
+  width: 100vw;
+  color: white;
+  font-size: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Contact p{
+  text-align: center;
+}
+
+.Contact button{
+  width: 350px;
+  background-color: rgba(0, 76, 255, 0.364);
+  font-size: large;
+  border-radius: 5px;
+  color: white;
+  letter-spacing: 2px;
+  height: 70px;
+  margin-top: 5%;
+  text-decoration: none;
+  
+}
+
+.Contact button a {
+  text-decoration: none;
+  color: white;
+}
+.footerdiv {
+  background-color:white;
+  height: 30vh;
+  display: flex;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.footerdiv div {
+  width: 25%;
+
+  display: flex;
+  padding: 60px 0 0 20px;
+  flex-direction: column;
+  gap: 30px;
+}
+
+footer a{
+  color :rgb(240, 144, 120);
+  text-decoration: underline;
+  
+
+  
+}
+
+#Clove {
+  color: white;
+  font-size: 5rem;
+  letter-spacing: 3px;
+  margin-top: 15%;
+  margin-left: 3%;
+}
+
+.acceuil p {
+  color: white;
+  font-size: 2rem;
+  margin-left: 3%;
+  padding-top: 2%;
+}
+
+.notreapproche {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 15%;
+}
+.notreapproche h1 {
+  font-size: 4rem;
+  text-align: center;
+  letter-spacing: 5px;
+}
+.notreapproche p {
+  font-size: 1.7rem;
+  text-align: center;
+  line-height: 50px;
+}
+.notreapproche button {
+  width: 350px;
+  background-color: rgba(0, 76, 255, 0.364);
+  font-size: large;
+  border-radius: 5px;
+  color: white;
+  letter-spacing: 2px;
+  height: 70px;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+.notreapproche button a {
+  color: white;
+  text-decoration: none;
+}
+.relaxation {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  padding: 5% 0;
+}
+.relaxation div {
+  height: 100%;
+  width: 50%;
+ 
+}
+.relaxation img{
+  height: 627px;
+  width: 638px;
+}
+.relaxationText{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+.relaxationText h1{
+  font-size: 4rem;
+}
+.relaxationText p{
+  font-size: 1.5rem;
+  line-height: 40px;
+}
+.services{
+  height: 100vh;
+  width: 100vw;
+  background-color:rgba(6, 13, 34, 0.952);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  color: white;
+ 
+}
+.rowimg{
+  width: 90%;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.rowimg div img{
+  height: 300px;
+  width: 400px;
+  padding: 5%;
+}
+
+.services button{
+  width: 350px;
+  background-color: rgba(0, 76, 255, 0.364);
+  font-size: large;
+  border-radius: 5px;
+  color: white;
+  letter-spacing: 2px;
+  height: 70px;
+  margin-top: 5%;
+  
+}
+
+.services button a{
+  color: white;
+  text-decoration: none;
+}
+.over2{
+  height: 75vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .equipe{
+  height: 75vh;
+  width: 100vw;
+
+  
+} */
+
+.equipe p{
+  font-size: 6rem;
+  display: flex;
+ text-align: center;
+ align-items: center;
+ justify-content: center;
+ line-height: 200px;
+ font-weight: bold;
+}
+#second{
+  background-color: white;
+  
+
+}
+ 
+#second .rowimg div img{
+  height: 500px;
+  width: 380px;
+  padding: 5%;
+}
+#second .rowimg div{
+  
+  color: black;
+  
+}
+#second .rowimg div p{
+  text-align: center;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#second .rowimg div a{
+  color:rgb(240, 144, 120);
+  font-size: 1rem;
+ 
+}
+#clove{
+  background-color: grey;
+  text-align: center;
+  font-size: 3rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  line-height: 80px;
+}
+
+
+
+#luisa{
+  font-size: 1.5rem;
+}
+
+#second .rowimg div .png{
+  height: 300px;
+  width: 400px;
+}
+
+/* .over h1{
+  text-align: center;
+  padding-top: 2%;
+  font-size: 6rem;
+  font-weight: 80;
+  
+} */
+ #blog{
+  text-align: center;
+  padding-top: 2%;
+  font-size: 6rem;
+  font-weight: 80;
+  
+}
+  .Gblog{
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    margin-top: 5%;
+   
+  }
+  .Gblog div{
+    width: 40%;
+    
+  }
+  .Gblog div img{
+    width: 100%;
+    height: 100%;
+  }
+  .imgtext{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+
+  }
+
+ #small{
+  width: 750px;
+  height: 500px;
+ }
+ #text{
+  font-size: 4rem;
+  padding-top: 2%;
+  text-decoration: none;
+ }
+
+  .Gblog a{
+  text-decoration: none;
+  color: black;
+ }
+
+ .first{
+  display: flex;
+  flex-direction: column;
+ text-align: center;
+ gap: 20px;
+
+ }
+ .reposer{
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  height: 280vh;
+ }
+ #nav a{
+  color: white;
+  font-size:2rem;
+  text-decoration: none;
+ }
+
+ .blogs{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+ }
+ .inter{
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  border: solid red;
+  
+ 
+ }
+ .imginter img{
+  height: 450px;
+  width: 800px;
+ }
+
+ .inter h1{
+  font-size: 3rem;
+  letter-spacing: 5px;
+  line-height: 80px;
+ }
+
+ .min{
+  font-size: 1rem;
+ }
+ .inter p{
+  font-size: 1.2rem;
+  padding-right: 20%;
+ }
+ .link{
+  width: 80vw;
+  height: 20%;
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .link a{
+display: flex;
+text-decoration: none;
+color: black;
+font-size: 2.5rem;
+text-align: right;
+margin-left: 15%;
+
+ }
+ 
